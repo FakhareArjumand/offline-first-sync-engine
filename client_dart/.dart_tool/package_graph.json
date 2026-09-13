@@ -1,0 +1,259 @@
+{
+  "roots": [
+    "offline_first_sync_engine"
+  ],
+  "packages": [
+    {
+      "name": "offline_first_sync_engine",
+      "version": "1.0.0",
+      "dependencies": [
+        "http",
+        "sqflite_common_ffi",
+        "uuid"
+      ],
+      "devDependencies": []
+    },
+    {
+      "name": "uuid",
+      "version": "4.6.0",
+      "dependencies": [
+        "crypto",
+        "fixnum"
+      ]
+    },
+    {
+      "name": "fixnum",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "crypto",
+      "version": "3.0.7",
+      "dependencies": [
+        "typed_data"
+      ]
+    },
+    {
+      "name": "typed_data",
+      "version": "1.4.0",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "collection",
+      "version": "1.19.1",
+      "dependencies": []
+    },
+    {
+      "name": "http",
+      "version": "1.6.0",
+      "dependencies": [
+        "async",
+        "http_parser",
+        "meta",
+        "web"
+      ]
+    },
+    {
+      "name": "web",
+      "version": "1.1.1",
+      "dependencies": []
+    },
+    {
+      "name": "http_parser",
+      "version": "4.1.2",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner",
+        "typed_data"
+      ]
+    },
+    {
+      "name": "string_scanner",
+      "version": "1.4.1",
+      "dependencies": [
+        "source_span"
+      ]
+    },
+    {
+      "name": "source_span",
+      "version": "1.10.2",
+      "dependencies": [
+        "collection",
+        "path",
+        "term_glyph"
+      ]
+    },
+    {
+      "name": "term_glyph",
+      "version": "1.2.2",
+      "dependencies": []
+    },
+    {
+      "name": "path",
+      "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "async",
+      "version": "2.13.1",
+      "dependencies": [
+        "collection",
+        "meta"
+      ]
+    },
+    {
+      "name": "meta",
+      "version": "1.19.0",
+      "dependencies": []
+    },
+    {
+      "name": "sqflite_common_ffi",
+      "version": "2.4.3",
+      "dependencies": [
+        "meta",
+        "path",
+        "sqflite_common",
+        "sqlite3",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "sqflite_common",
+      "version": "2.5.12",
+      "dependencies": [
+        "meta",
+        "path",
+        "synchronized"
+      ]
+    },
+    {
+      "name": "synchronized",
+      "version": "3.4.2",
+      "dependencies": []
+    },
+    {
+      "name": "sqlite3",
+      "version": "3.5.2",
+      "dependencies": [
+        "code_assets",
+        "collection",
+        "crypto",
+        "ffi",
+        "hooks",
+        "meta",
+        "native_toolchain_c",
+        "path",
+        "typed_data",
+        "web"
+      ]
+    },
+    {
+      "name": "code_assets",
+      "version": "2.0.0",
+      "dependencies": [
+        "collection",
+        "hooks",
+        "logging"
+      ]
+    },
+    {
+      "name": "hooks",
+      "version": "2.2.0",
+      "dependencies": [
+        "collection",
+        "crypto",
+        "logging",
+        "pub_semver",
+        "record_use",
+        "yaml"
+      ]
+    },
+    {
+      "name": "logging",
+      "version": "1.3.0",
+      "dependencies": []
+    },
+    {
+      "name": "yaml",
+      "version": "3.1.4",
+      "dependencies": [
+        "collection",
+        "source_span",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "pub_semver",
+      "version": "2.2.1",
+      "dependencies": [
+        "collection"
+      ]
+    },
+    {
+      "name": "record_use",
+      "version": "1.1.1",
+      "dependencies": [
+        "collection",
+        "meta",
+        "pub_semver"
+      ]
+    },
+    {
+      "name": "ffi",
+      "version": "2.2.0",
+      "dependencies": []
+    },
+    {
+      "name": "native_toolchain_c",
+      "version": "0.19.4",
+      "dependencies": [
+        "code_assets",
+        "glob",
+        "hooks",
+        "logging",
+        "meta",
+        "process",
+        "pub_semver"
+      ]
+    },
+    {
+      "name": "process",
+      "version": "5.0.6",
+      "dependencies": [
+        "file",
+        "path",
+        "platform"
+      ]
+    },
+    {
+      "name": "glob",
+      "version": "2.2.0",
+      "dependencies": [
+        "async",
+        "collection",
+        "file",
+        "path",
+        "string_scanner"
+      ]
+    },
+    {
+      "name": "file",
+      "version": "7.0.1",
+      "dependencies": [
+        "meta",
+        "path"
+      ]
+    },
+    {
+      "name": "platform",
+      "version": "3.2.0",
+      "dependencies": [
+        "meta"
+      ]
+    }
+  ],
+  "configVersion": 1
+}
