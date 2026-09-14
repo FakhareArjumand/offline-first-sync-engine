@@ -1,0 +1,24 @@
+{
+  "assets": {},
+  "config": {
+    "build_asset_types": [
+      "code_assets/code"
+    ],
+    "extensions": {
+      "code_assets": {
+        "link_mode_preference": "dynamic",
+        "macos": {
+          "target_version": 12
+        },
+        "target_architecture": "arm64",
+        "target_os": "macos"
+      }
+    },
+    "linking_enabled": false
+  },
+  "out_dir_shared": "/Users/fakharearjumand/Developer/GitRepos/offline-first-sync-engine/offline-first-sync-engine/client_dart/.dart_tool/hooks_runner/shared/sqlite3/build/",
+  "out_file": "/Users/fakharearjumand/Developer/GitRepos/offline-first-sync-engine/offline-first-sync-engine/client_dart/.dart_tool/hooks_runner/sqlite3/9fb02c5622/output.json",
+  "package_name": "sqlite3",
+  "package_root": "/Users/fakharearjumand/.pub-cache/hosted/pub.dev/sqlite3-3.5.2/",
+  "user_defines": {}
+}
